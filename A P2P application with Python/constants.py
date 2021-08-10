@@ -4,7 +4,6 @@ import threading
 
 
 SERVER=socket.gethostbyname(socket.gethostname())
-# SERVER="192.168.56.1"
 PORT=5050
 HEADER=4096
 DISCONNECT_MESSAGE="!disconnect"
